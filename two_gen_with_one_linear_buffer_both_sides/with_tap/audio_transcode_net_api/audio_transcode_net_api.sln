@@ -1,0 +1,49 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "audio_transcode_net_api", "audio_transcode_net_api.vcproj", "{DD68E96D-2CD6-4C5A-802D-C2233FE0E7C0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BD35431A-4066-4B10-9EE4-7E7D722823F2} = {BD35431A-4066-4B10-9EE4-7E7D722823F2}
+		{199DDA44-301B-49C9-A4A4-B26C1D8B7343} = {199DDA44-301B-49C9-A4A4-B26C1D8B7343}
+		{DD0F5150-5392-4A24-9B0E-812D662DF476} = {DD0F5150-5392-4A24-9B0E-812D662DF476}
+		{481275BC-4260-4B04-AC46-4BDD4D50B84C} = {481275BC-4260-4B04-AC46-4BDD4D50B84C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "octosal", "..\..\..\..\software\common\octosal\octosal.vcproj", "{199DDA44-301B-49C9-A4A4-B26C1D8B7343}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "octtransapi_eth", "..\..\..\..\software\common\octtransapi\octtransapi_eth\octtransapi_eth.vcproj", "{DD0F5150-5392-4A24-9B0E-812D662DF476}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "octvc1pktapi", "..\..\..\..\software\octvc1pktapi\octvc1pktapi.vcproj", "{BD35431A-4066-4B10-9EE4-7E7D722823F2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "octtransapi", "..\..\..\..\software\common\octtransapi\octtransapi\octtransapi.vcproj", "{481275BC-4260-4B04-AC46-4BDD4D50B84C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD68E96D-2CD6-4C5A-802D-C2233FE0E7C0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DD68E96D-2CD6-4C5A-802D-C2233FE0E7C0}.Debug|Win32.Build.0 = Debug|Win32
+		{DD68E96D-2CD6-4C5A-802D-C2233FE0E7C0}.Release|Win32.ActiveCfg = Release|Win32
+		{DD68E96D-2CD6-4C5A-802D-C2233FE0E7C0}.Release|Win32.Build.0 = Release|Win32
+		{199DDA44-301B-49C9-A4A4-B26C1D8B7343}.Debug|Win32.ActiveCfg = Debug|Win32
+		{199DDA44-301B-49C9-A4A4-B26C1D8B7343}.Debug|Win32.Build.0 = Debug|Win32
+		{199DDA44-301B-49C9-A4A4-B26C1D8B7343}.Release|Win32.ActiveCfg = Release|Win32
+		{199DDA44-301B-49C9-A4A4-B26C1D8B7343}.Release|Win32.Build.0 = Release|Win32
+		{DD0F5150-5392-4A24-9B0E-812D662DF476}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DD0F5150-5392-4A24-9B0E-812D662DF476}.Debug|Win32.Build.0 = Debug|Win32
+		{DD0F5150-5392-4A24-9B0E-812D662DF476}.Release|Win32.ActiveCfg = Release|Win32
+		{DD0F5150-5392-4A24-9B0E-812D662DF476}.Release|Win32.Build.0 = Release|Win32
+		{BD35431A-4066-4B10-9EE4-7E7D722823F2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BD35431A-4066-4B10-9EE4-7E7D722823F2}.Debug|Win32.Build.0 = Debug|Win32
+		{BD35431A-4066-4B10-9EE4-7E7D722823F2}.Release|Win32.ActiveCfg = Release|Win32
+		{BD35431A-4066-4B10-9EE4-7E7D722823F2}.Release|Win32.Build.0 = Release|Win32
+		{481275BC-4260-4B04-AC46-4BDD4D50B84C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{481275BC-4260-4B04-AC46-4BDD4D50B84C}.Debug|Win32.Build.0 = Debug|Win32
+		{481275BC-4260-4B04-AC46-4BDD4D50B84C}.Release|Win32.ActiveCfg = Release|Win32
+		{481275BC-4260-4B04-AC46-4BDD4D50B84C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
